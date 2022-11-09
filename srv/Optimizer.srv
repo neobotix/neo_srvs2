@@ -3,6 +3,6 @@ geometry_msgs/Twist current_vel
 geometry_msgs/PoseStamped carrot_pose
 geometry_msgs/Pose goal_pose
 bool switch_opt
-double control_interval
+float32 control_interval
 ---
 geometry_msgs/TwistStamped output_vel
