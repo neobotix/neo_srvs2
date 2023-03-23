@@ -1,0 +1,35 @@
+uint32 TRANSMIT_MODE_REQUEST = 0
+uint32 TRANSMIT_MODE_CAN = 1
+uint32 TRANSMIT_MODE_SERIAL = 2
+uint32 TRANSMIT_MODE_CAN_SERIAL = 3
+
+uint32 hardware_version
+uint32 serial_number
+uint32 can_id
+uint32 can_baudrate
+uint32 update_interval_ms
+uint32 transmit_mode
+
+bool[] active_sensors
+float32[] warn_distance
+float32[] alarm_distance
+
+uint32 RESOLUTION_0125_CM = 3	# 0.125 cm per increment
+uint32 RESOLUTION_025_CM = 2	# 0.25 cm per increment
+uint32 RESOLUTION_05_CM = 1		# 0.5 cm per increment
+uint32 RESOLUTION_1_CM = 0		# 1 cm per increment
+
+bool[] enable_transmission
+uint32[] resolution
+uint32[] fire_interval_ms
+int32[] sending_sensor
+bool[] cross_echo_mode 
+
+float32 low_pass_gain
+bool enable_analog_input
+bool enable_legacy_format
+bool enable_can_termination
+bool relay_warn_blocked_invert
+bool relay_alarm_blocked_invert
+---
+bool success

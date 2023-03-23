@@ -22,6 +22,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/RelayBoardSetEMStop.srv"
   "srv/RelayBoardUnSetEMStop.srv"
   "srv/USBoardToggleSensor.srv"
+  "srv/USBoardSetParam.srv"
+  "srv/USBoardReadParam.srv"
   "srv/Optimizer.srv"
   DEPENDENCIES geometry_msgs
 )
