@@ -1,0 +1,5 @@
+---
+bool is_docking
+bool docked
+bool is_undocking
+bool undocked

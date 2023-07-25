@@ -24,6 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/USBoardToggleSensor.srv"
   "srv/Optimizer.srv"
   "srv/InitializeContourMatching.srv"
+  "srv/DockingFeedback.srv"
   DEPENDENCIES geometry_msgs
 )
 
