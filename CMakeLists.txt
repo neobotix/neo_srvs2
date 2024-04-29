@@ -21,6 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ResetOmniWheels.srv"
   "srv/RelayBoardSetEMStop.srv"
   "srv/RelayBoardUnSetEMStop.srv"
+  "srv/RelayBoardSetLED.srv"
   "srv/USBoardToggleSensor.srv"
   "srv/Optimizer.srv"
   "srv/InitializeContourMatching.srv"
