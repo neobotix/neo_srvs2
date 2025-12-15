@@ -1,8 +1,11 @@
 geometry_msgs/PoseStamped current_pose
 geometry_msgs/Twist current_vel
 geometry_msgs/PoseStamped carrot_pose
+geometry_msgs/PoseStamped carrot_pose_tight
 geometry_msgs/Pose goal_pose
 float32 turn_yaw
+float32 turn_yaw_tight
+float32 effective_turn_angle
 bool switch_opt
 float32 control_interval
 ---
