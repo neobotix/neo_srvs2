@@ -11,6 +11,7 @@ endif()
 
 find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
 find_package(neo_msgs2 REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -28,7 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Optimizer.srv"
   "srv/InitializeContourMatching.srv"
   "srv/SetSafetyField.srv"
-  DEPENDENCIES geometry_msgs neo_msgs2
+  DEPENDENCIES geometry_msgs std_msgs neo_msgs2
 )
 
 ament_package()
