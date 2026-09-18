@@ -1,3 +1,6 @@
-geometry_msgs/Pose init_pose
+# Additional contour correction expressed in base_link; yaw is in radians.
+float64 x
+float64 y
+float64 yaw
 ---
 bool success
